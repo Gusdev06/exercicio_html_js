@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    font-size: 30px;
+    background-image: linear-gradient(to right, #5b5163 16.62%, #a95de7 85.61%)
+
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #3a386d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.sucess-message {
+    background-color: rgb(14, 88, 11);
+    padding: 8px;
+    color:#fff;
+    font-size: 12px;
+    display: none;
+}
+
+.error-message {
+    background-color: rgb(173, 17, 17);
+    padding: 8px;
+    color:#fff;
+    font-size: 12px;
+    display: none; 
+    margin-bottom: 8px;
+}
